@@ -41,8 +41,7 @@ for (let i = 0; i < voitures.collection.length; i++ ) {
     ford.ouvrirPorte();
     peugeot.ouvrirPorte();
     let newSpan = document.createElement("span");
-    newSpan.innerHTML = "La couleur de la citoen est " + citroen.color + ", la couleur de la ford est " + ford.color + ", la couleur de la peugeot est  " + peugeot.color;
+    newSpan.innerHTML = "La couleur de la citroen est " + citroen.color + ", la couleur de la ford est " + ford.color + ", la couleur de la peugeot est  " + peugeot.color + "<br>";
     document.getElementById("couleurVoiture").appendChild(newSpan);
-
 }
 
